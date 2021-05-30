@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="316dp"
+        android:layout_height="484dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="53dp"
+        android:rotationX="0"
+        android:textSize="55dp" />
+
+    <ImageView
+    android:id="@+id/iv_star"
+    android:layout_width="311dp"
+    android:layout_height="121dp"
+    app:srcCompat="@drawable/ic_baseline_star_24" />
+
+</RelativeLayout>
